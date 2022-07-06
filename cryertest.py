@@ -289,21 +289,19 @@ for n in range(0,nt):
         Du.assign(Du+du)
         X_func.assign(Du) 
         _, USu = df.split(X_func)
-        sig, N, beta, dp, q, _, p_now, evol_now, edev_now = au.sig_correction(USu,sig_old,plas_strain,K,G,sig0,H)
+        sig, N, beta, dp_, q, _, p_now, evol_now, edev_now = au.sig_correction(USu,sig_old,plas_strain,K,G,sig0,H)
       #  Activate for after displacement BC
       #  for bc in BCS:  
       #      bc.homogenize()
         A, Res = df.assemble_system(Tangent, -Residual, BCS)
         nRes = Res.norm('l2')
-        report.write('Residual: ' + str(nRes))
-        report.write('\n')
-        # print('Residual: ' + str(nRes))
+        print('Residual: ' + str(nRes))
         niter += 1
         if niter == Nitermax:
             report.write('Max number of iterations have been surpassed!')
             report.write('\n')
         	
-    plas_strain1.assign(plas_strain+au.local_project(dp_, W0, df.dx))
+    plas_strain.assign(plas_strain+au.local_project(dp_, W0, df.dx))
     
     # Postprocessing
     
@@ -354,35 +352,6 @@ for n in range(0,nt):
     file = df.File(folder_name+"VolStrain_"+str(con)+".pvd")
     file << vol_strain      
     
-    # Principal stresses, directions, and phi
-    
-    sigma_eig = df.Function(W_eigen)
-    sigma_eig.rename('Principal Stresses [MPa]','Principal Stresses [MPa]')
-    eig_1 = df.Function(W_eigen)
-    eig_1.rename('Principal Direction 1 [-]', 'Principal Direction 1 [-]')
-    eig_2 = df.Function(W_eigen)
-    eig_2.rename('Principal Direction 2 [-]', 'Principal Direction 2 [-]')
-    eig_3 = df.Function(W_eigen)
-    eig_3.rename('Principal Direction 3 [-]', 'Principal Direction 3 [-]')
-    phi_tensor = df.Function(W0)
-    phi_tensor.rename('Stress tensor shape ratio [-]', 'Stress tensor shape ratio [-]')
-    
-    au.EigenSolver_DG_Order1(mesh,sig,sigma_eig,[eig_1,eig_2,eig_3],phi_tensor)
-    
-    file = df.File(folder_name+"EigSigmaTotal_"+str(con)+".pvd")
-    file << sigma_eig
-    
-    file = df.File(folder_name+"Dir1Total_"+str(con)+".pvd")
-    file << eig_1
-    
-    file = df.File(folder_name+"Dir2Total_"+str(con)+".pvd")
-    file << eig_2
-    
-    file = df.File(folder_name+"Dir3Total_"+str(con)+".pvd")
-    file << eig_3
-    
-    file = df.File(folder_name+"PhiTotal_"+str(con)+".pvd")
-    file << phi_tensor
     
     # Update solution at last time step
     X_n.assign(X_func)
