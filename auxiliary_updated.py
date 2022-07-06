@@ -44,11 +44,17 @@ def sigma_v(us,p,alpha,K,G):
     sigma_vol = dolfin.tr(sigma(us,p,alpha,K,G))/3.0
     return sigma_vol
 
-# Stress deviatorico
+# Deviatoric Stress
 def sigma_dev(us,p,alpha,K,G):
     sigma_dev = sigma(us,p,alpha,K,G) - sigma_v(us,p,alpha,K,G)
     return sigma_dev
     
+def sigma_elastoplastic(us, p, alpha, K, G, beta):
+    sigma_trial = sigma_e(us,K,G) - alpha*p*dolfin.Identity(np.size(us))
+    sig_dev = dolfin.dev(sigma_trial)
+    sig_vol = sigma_trial - sig_dev
+    sigma = sig_vol + (1 - beta)*sig_dev
+    return sigma
    
 # vector -> tensor CT(2)
 def as_3D_tensor(X): 
