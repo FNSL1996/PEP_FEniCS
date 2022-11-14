@@ -19,9 +19,17 @@ Mean stress and volumetric strain magnitude of the previously described domains 
 
 ## Benchmarks
 
+Two classical benchmarks were used to validate both the poroelastic and the elastoplastic behavior of the model
+
+### Cryer's Problem
+
+Formulated by Cryer (1963), this problem considers a poroelastic sphere of radius *r* subjected to a confining pressure *t*. Free flow condition is imposed on its surface. The tradition concept of this test is shown Figure (A.1).
+
+![Cryer's Problem](/benchmarks_data/cryer_concept.png)!
+
 ## Results
 
 ## Dependencies
 
-- `[FEniCS](https://fenicsproject.org/)`: 2019.1.0 (Legacy version)
-- `[numpy](https://numpy.org/)`
+- [FEniCS](https://fenicsproject.org/): 2019.1.0 (Legacy version)
+- [numpy](https://numpy.org/)
