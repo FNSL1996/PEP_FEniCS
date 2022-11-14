@@ -23,7 +23,7 @@ Two classical benchmarks were used to validate both the poroelastic and the elas
 
 ### Cryer's Problem
 
-Formulated by Cryer (1963), this problem considers a poroelastic sphere of radius *r* subjected to a confining pressure *t*. Free flow condition is imposed on its surface. The tradition concept of this test is shown Figure (A.1).
+Formulated by Cryer (1963), this problem considers a poroelastic sphere of radius *r* subjected to a confining pressure *t*. Free flow condition is imposed on its surface. The traditional concept of this test is shown in Figure 1(a), while the setup used in this test is shown in Figure 1(b), which takes advantage of the symmetry of the original problem to improve computational performance. 
 
 <figure>
 <p align="center">
