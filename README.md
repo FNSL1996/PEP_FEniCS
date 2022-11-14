@@ -23,5 +23,5 @@ Mean stress and volumetric strain magnitude of the previously described domains 
 
 ## Dependencies
 
-- [FEniCS](https://fenicsproject.org/): 2019.1.0 (Legacy version)
-- [numpy](https://numpy.org/)
+- `[FEniCS](https://fenicsproject.org/)`: 2019.1.0 (Legacy version)
+- `[numpy](https://numpy.org/)`
