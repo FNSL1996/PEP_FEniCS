@@ -28,8 +28,8 @@ Formulated by Cryer (1963), this problem considers a poroelastic sphere of radiu
 <figure>
 <p align="center">
 <img src="/benchmarks_data/cryer_concept.png" style="background-color:white;width:50%">
-</p>
 <figcaption align = "center"><b>Cryer's Problem.</b></figcaption>
+</p>
 </figure>
 
 ## Results
