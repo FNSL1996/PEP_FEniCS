@@ -13,8 +13,15 @@ Mean stress and volumetric strain magnitude of the previously described domains 
 
 ## Directories
 
+- `benchmarks_data`: Benchmarks results in form of images and raw data
+- `codes`: Codes used for poro-elasto-plastic simulation and validation
+- `meshes`: Mesh files used for benchmarks and geothermal simulation
+
 ## Benchmarks
 
 ## Results
 
 ## Dependencies
+
+- [FEniCS](https://fenicsproject.org/): 2019.1.0 (Legacy version)
+- [numpy](https://numpy.org/)
