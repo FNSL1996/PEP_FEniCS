@@ -1,5 +1,9 @@
 # Fluid flow migration and rock stress and deformation fields within a geothermal system due to a crustal fault: a numerical perspective
 
+Felipe Sáez-Leiva, Daniel E. Hurtado, Muriel Gerbault, Javiera Ruz-Ginouves, Pablo Iturrieta, José Cembrano.
+
+Repository housing the codes developed for Sáez-Leiva et al., in review.
+
 ## Abstract
 
 Geothermal systems are commonly spatially and temporally associated with volcanic complexes, which, in turn, are located nearby crustal fault systems. Such systems can alter fluid flow in its surroundings, potentially acting as barriers or conduits for fluids, depending mainly on its architecture and slip rate. However, the fundamental control a crustal fault exerts on fluid migration, rock deformation and stress state within a geothermal system is still poorly understood.  Numerical studies have the potential to help unraveling the nature of transient processes such as the interplay between a fault and a geothermal reservoir. Most of the previous efforts on volcanic and hydrothermal processes do not directly consider
@@ -27,11 +31,11 @@ Formulated by Cryer (1963), this problem considers a poroelastic sphere of radiu
 
 <figure>
 <p align="center">
-<img src="/benchmarks_data/cryer.png" style="background-color:white;width:50%">
+<img src="/benchmarks_data/cryer_setup.png" style="background-color:white;width:50%">
 </p>
-<figcaption align = "center"><b> Figure 1: (a) Traditional concept for Cryer's Problem. The analytical solution for normalized fluid pressure temporal evolution at the center of the sphere *p* is known. (b) Setup used in our benchmark. An octant of the sphere, with free-slip and no-flow conditions on the inner surface, is used in order to improve computational performance.</b></figcaption>
+<figcaption align = "center"><b> Figure 1: (a) Traditional concept for Cryer's Problem. The analytical solution for normalized fluid pressure temporal evolution at the center of the sphere p is known. (b) Setup used in our benchmark. An octant of the sphere, with free-slip and no-flow conditions on the inner surface, is used in order to improve computational performance.</b></figcaption>
 </figure>
-<br />
+
 
 Normalized fluid pressure results were plotted using [Paraview](https://www.paraview.org/), as shown in Figure 2, while temporal evolution of normalized fluid pressure was plotted against the analytical solution for two mesh sizes (Figure 3).
 
@@ -47,6 +51,58 @@ Normalized fluid pressure results were plotted using [Paraview](https://www.para
 <img src="/benchmarks_data/cryer_plot.png" style="background-color:white;width:80%">
 </p>
 <figcaption align = "center"><b> Figure 3: Temporal evolution of normalized fluid pressure at the sphere's center. Two mesh different meshes were used to test mesh dependency. The number of elements for the regular and the refined mesh was XXXXXX and XXXXXX, respectively.</b></figcaption>
+</figure>
+
+### Thick-walled hollow cylinder loading test
+
+In this benchmarks, an elasto-plastic hollow cylinder, confined in the axial direction, is subjected to an internal pressure *t*. As the pressure increases, plastic strain starts to propagate from the inner to the external surface. Analytical solutions, for every internal pressure, are known for:
+
+- Plastic zone depth 
+- Tangential stress 
+- Radial stress
+
+These solutions can be found in Nadai, 1950. The test setup is shown in Figure 4, and the results are shown in Figures 5, 6, 7, and 8. 
+
+<figure>
+<p align="center">
+<img src="/benchmarks_data/cylinder_setup.png" style="background-color:white;width:50%">
+</p>
+<figcaption align = "center"><b> Figure 4: Setup of the hollow cylinder loading test in (a) 3D view, and (b) plan view. Only a quarter of the cylinder is modeled using the problem' symmetry, using the boundary conditions shown in (b). Note that dimensions are not to scale in (b).</b></figcaption>
+</figure>
+
+<figure>
+<p align="center">
+<img src="/benchmarks_data/cylinder_evolution.gif" style="background-color:white;width:70%">
+</p>
+<figcaption align = "center"><b> Figure 5: von Mises Stress evolution in cylinder wall with increasing internal pressure.</b></figcaption>
+</figure>
+
+<figure>
+<p align="center">
+<img src="/benchmarks_data/cryer_plasticdepth.png" style="background-color:white;width:80%">
+</p>
+<figcaption align = "center"><b> Figure 6: Plastic depth evolution at increasing internal pressure. Plastification value of 1 indicates plastic strain development at that distance from the center of the cylinder. A value of 0 indicated elastic behavior.</b></figcaption>
+</figure>
+
+<figure>
+<p align="center">
+<img src="/benchmarks_data/cylinder_plasticdepth.png" style="background-color:white;width:80%">
+</p>
+<figcaption align = "center"><b> Figure 6: Plastic depth evolution at increasing internal pressure. Plastification value of 1 indicates plastic strain development at that distance from the center of the cylinder. A value of 0 indicated elastic behavior.</b></figcaption>
+</figure>
+
+<figure>
+<p align="center">
+<img src="/benchmarks_data/cylinder_radial.png" style="background-color:white;width:80%">
+</p>
+<figcaption align = "center"><b> Figure 7: Radial stress across the cylinder wall at increasing internal pressure.</b></figcaption>
+</figure>
+
+<figure>
+<p align="center">
+<img src="/benchmarks_data/cylinder_tangential.png" style="background-color:white;width:80%">
+</p>
+<figcaption align = "center"><b> Figure 8: Tangential stress across the cylinder wall at increasing internal pressure.</b></figcaption>
 </figure>
 
 ## Results
