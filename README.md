@@ -29,16 +29,24 @@ Formulated by Cryer (1963), this problem considers a poroelastic sphere of radiu
 <p align="center">
 <img src="/benchmarks_data/cryer.png" style="background-color:white;width:50%">
 </p>
-<figcaption align = "center"><b> (a) Traditional concept for Cryer's Problem. The analytical solution for normalized fluid pressure temporal evolution at the center of the sphere *p* is known. (b) Setup used in our benchmark. An octant of the sphere, with free-slip and no-flow conditions on the inner surface, is used in order to improve computational performance.</b></figcaption>
+<figcaption align = "center"><b> Figure 1: (a) Traditional concept for Cryer's Problem. The analytical solution for normalized fluid pressure temporal evolution at the center of the sphere *p* is known. (b) Setup used in our benchmark. An octant of the sphere, with free-slip and no-flow conditions on the inner surface, is used in order to improve computational performance.</b></figcaption>
 </figure>
+
+Normalized fluid pressure results were plotted using [Paraview](https://www.paraview.org/), as shown in Figure 2, while temporal evolution of normalized fluid pressure was plotted against the analytical solution for two mesh sizes (Figure 3).
 
 <figure>
 <p align="center">
 <img src="/benchmarks_data/cryer_evolution.gif" style="background-color:white;width:50%">
 </p>
-<figcaption align = "center"><b> (a) Traditional concept for Cryer's Problem. The analytical solution for normalized fluid pressure temporal evolution at the center of the sphere *p* is known. (b) Setup used in our benchmark. An octant of the sphere, with free-slip and no-flow conditions on the inner surface, is used in order to improve computational performance.</b></figcaption>
+<figcaption align = "center"><b> Figure 2: Temporal evolution of normalized fluid pressure.</b></figcaption>
 </figure>
 
+<figure>
+<p align="center">
+<img src="/benchmarks_data/cryer_plot.png" style="background-color:white;width:100%">
+</p>
+<figcaption align = "center"><b> Figure 3: Temporal evolution of normalized fluid pressure at the sphere's center. Two mesh different meshes were used to test mesh dependency. The number of elements for the regular and the refined mesh was XXXXXX and XXXXXX, respectively.</b></figcaption>
+</figure>
 
 ## Results
 
