@@ -79,13 +79,6 @@ These solutions can be found in Nadai, 1950. The test setup is shown in Figure 4
 
 <figure>
 <p align="center">
-<img src="/benchmarks_data/cryer_plasticdepth.png" style="background-color:white;width:80%">
-</p>
-<figcaption align = "center"><b> Figure 6: Plastic depth evolution at increasing internal pressure. Plastification value of 1 indicates plastic strain development at that distance from the center of the cylinder. A value of 0 indicated elastic behavior.</b></figcaption>
-</figure>
-
-<figure>
-<p align="center">
 <img src="/benchmarks_data/cylinder_plasticdepth.png" style="background-color:white;width:80%">
 </p>
 <figcaption align = "center"><b> Figure 6: Plastic depth evolution at increasing internal pressure. Plastification value of 1 indicates plastic strain development at that distance from the center of the cylinder. A value of 0 indicated elastic behavior.</b></figcaption>
