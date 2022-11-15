@@ -26,12 +26,16 @@ Two classical benchmarks were used to validate both the poroelastic and the elas
 Formulated by Cryer (1963), this problem considers a poroelastic sphere of radius *r* subjected to a confining pressure *t*. Free flow condition is imposed on its surface. The traditional concept of this test is shown in Figure 1(a), while the setup used in this test is shown in Figure 1(b), which takes advantage of the symmetry of the original problem to improve computational performance. 
 
 <figure>
+<p align="center">
 <img src="/benchmarks_data/cryer.png" style="background-color:white;width:50%">
+</p>
 <figcaption align = "center"><b> (a) Traditional concept for Cryer's Problem. The analytical solution for normalized fluid pressure temporal evolution at the center of the sphere *p* is known. (b) Setup used in our benchmark. An octant of the sphere, with free-slip and no-flow conditions on the inner surface, is used in order to improve computational performance.</b></figcaption>
 </figure>
 
 <figure>
+<p align="center">
 <img src="/benchmarks_data/cryer_evolution.gif" style="background-color:white;width:50%">
+</p>
 <figcaption align = "center"><b> (a) Traditional concept for Cryer's Problem. The analytical solution for normalized fluid pressure temporal evolution at the center of the sphere *p* is known. (b) Setup used in our benchmark. An octant of the sphere, with free-slip and no-flow conditions on the inner surface, is used in order to improve computational performance.</b></figcaption>
 </figure>
 
