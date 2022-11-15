@@ -1,6 +1,6 @@
 # Fluid flow migration and rock stress and deformation fields within a geothermal system due to a crustal fault: a numerical perspective
 
-Felipe Sáez-Leiva, Daniel E. Hurtado, Muriel Gerbault, Javiera Ruz-Ginouves, Pablo Iturrieta, José Cembrano.
+Felipe Sáez-Leiva (_[@FNSL1996](https://github.com/FNSL1996)_), Daniel E. Hurtado (_[@dehurtado](https://github.com/dehurtado)_), Muriel Gerbault (_[@murielgerbault](https://github.com/murielgerbault)_), Javiera Ruz-Ginouves(_[@JaviRG](https://github.com/JaviRG)_), Pablo Iturrieta (_[@pabloitu](https://github.com/pabloitu)_), José Cembrano.
 
 Repository housing the codes developed for Sáez-Leiva et al., in review.
 
@@ -72,7 +72,7 @@ These solutions can be found in Nadai, 1950. The test setup is shown in Figure 4
 
 <figure>
 <p align="center">
-<img src="/benchmarks_data/cylinder_evolution.gif" style="background-color:white;width:70%">
+<img src="/benchmarks_data/cylinder_evolution.gif" style="background-color:white;width:60%">
 </p>
 <figcaption align = "center"><b> Figure 5: von Mises Stress evolution in cylinder wall with increasing internal pressure.</b></figcaption>
 </figure>
