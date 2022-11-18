@@ -50,7 +50,7 @@ Normalized fluid pressure results were plotted using [Paraview](https://www.para
 <p align="center">
 <img src="/benchmarks_data/cryer_plot.png" style="background-color:white;width:80%">
 </p>
-<figcaption align = "center"><b> Figure 3: Temporal evolution of normalized fluid pressure at the sphere's center. Two mesh different meshes were used to test mesh dependency. The number of elements for the regular and the refined mesh was XXXXXX and XXXXXX, respectively.</b></figcaption>
+<figcaption align = "center"><b> Figure 3: Temporal evolution of normalized fluid pressure at the sphere's center. Two mesh different meshes were used to test mesh dependency. The number of elements for the regular and the refined mesh was 2124 and 14843, respectively.</b></figcaption>
 </figure>
 
 ### Thick-walled hollow cylinder loading test
