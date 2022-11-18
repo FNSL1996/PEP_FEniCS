@@ -1,6 +1,6 @@
 # Fluid flow migration and rock stress and deformation fields within a geothermal system due to a crustal fault: a numerical perspective
 
-Felipe Sáez-Leiva (_[@FNSL1996](https://github.com/FNSL1996)_), Daniel E. Hurtado (_[@dehurtado](https://github.com/dehurtado)_), Muriel Gerbault (_[@murielgerbault](https://github.com/murielgerbault)_), Javiera Ruz-Ginouves(_[@JaviRG](https://github.com/JaviRG)_), Pablo Iturrieta (_[@pabloitu](https://github.com/pabloitu)_), José Cembrano.
+Felipe Sáez-Leiva (_[@FNSL1996](https://github.com/FNSL1996)_), Daniel E. Hurtado (_[@dehurtado](https://github.com/dehurtado)_), Muriel Gerbault (_[@murielgerbault](https://github.com/murielgerbault)_), Javiera Ruz-Ginouves (_[@JaviRG](https://github.com/JaviRG)_), Pablo Iturrieta (_[@pabloitu](https://github.com/pabloitu)_), José Cembrano.
 
 Repository housing the codes developed for Sáez-Leiva et al., in review.
 
