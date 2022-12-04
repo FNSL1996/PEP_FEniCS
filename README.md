@@ -101,7 +101,7 @@ This repository includes the results of the 8 selected models of our article, pl
 |Model Name|Rheology and Heterogeneity|Slip-rate [m/s]|$G_{f}$ [GPa]|$\kappa_{f}$ [m $^{2}$]|$\sigma_{y 0}$ [MPa]|$\mu$ [Pa $\cdot$ s]|
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Elastic_SR_1|**P-Elastic**, Homogeneous|1|6|1.90 $\cdot$ 10 $^{-13}$|*|10 $^{-3}$|
-|SR_01|P-EPlas, Homogeneous|**0.1**|6|1.90 $\cdot$ 10 $^{-13}$|5|10 $^{-3}$|
+|SR_01|P-EPlas, Homogeneous|**0.1**|6|1.90 $\cdot$ $10^{-13}$|5|10 $^{-3}$|
 |**SR_1**|P-EPlas, Homogeneous|1|6|1.90 $\cdot$ 10 $^{-13}$|5|10 $^{-3}$|
 |SR_10|P-EPlas, Homogeneous|**10**|6|1.90 $\cdot$ 10 $^{-13}$|5|10 $^{-3}$|
 |Yield_SR_1|P-EPlas, Homogeneous|1|6|1.90 $\cdot$ 10 $^{-13}$|**5**|10 $^{-3}$|
