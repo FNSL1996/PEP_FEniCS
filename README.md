@@ -96,6 +96,12 @@ These solutions can be found in Nadai, 1950. The test setup is shown in Figure 4
 
 ## Results
 
+This repository includes the results of the 8 selected models of our article, plus 4 additional tests. Table 1 resumes the models' properties.
+
+|Model Name|Rheology and Heterogeneity|Slip-rate [m/s]|$G_{f}$ [GPa]|$\kappa_{f}$|$\sigma_{y 0}$|$\mu$|
+|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|Elastic_SR_1|lalala|0.1|6|1.9$\cdot$10$^{-13}$|*|10$^{-3}$|
+
 ## Dependencies
 
 - [FEniCS](https://fenicsproject.org/): 2019.1.0 (Legacy version)
