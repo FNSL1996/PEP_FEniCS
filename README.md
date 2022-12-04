@@ -113,7 +113,7 @@ This repository includes the results of the 8 selected models of our article, pl
 |Permeability_SR_1_New (*)|P-EPlas, **Permeable Fault**|0.1|6|**$1.90 \cdot 10^{-12}$**|5|10 $^{-3}$|
 |Permeability_SR_1_Homo (*)|P-EPlas, **Homogeneous**|0.1|6|**$4.86 \cdot 10^{-10}$**|5|10 $^{-3}$|
 
-[Test Caption]
+**Table 1: Main properties of the model runs. (*) on model name indicates additional test**
 
 ## Dependencies
 
