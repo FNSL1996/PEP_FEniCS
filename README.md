@@ -106,10 +106,13 @@ This repository includes the results of the 8 selected models of our article, pl
 |SR_10|P-EPlas, Homogeneous|**10**|6|$1.90 \cdot 10^{-13}$|5|10 $^{-3}$|
 |Yield_SR_1|P-EPlas, Homogeneous|1|6|$1.90 \cdot 10^{-13}$|**5**|10 $^{-3}$|
 |Shear_SR_1|P-EPlas, **Compliant Fault**|1|6|$1.90 \cdot 10^{-13}$|5|10 $^{-3}$|
-|Permeability_SR_1|P-EPlas, **Permeable Fault**|0.1|6|$4.86 \cdot 10^{-10}$|*|10 $^{-3}$|
-|Viscosity_SR_1|P-EPlas, Homogeneous|1|6|**$1.90 \cdot 10^{-13}$**|5|**10 $^{-2}$**|
+|Permeability_SR_1|P-EPlas, **Permeable Fault**|0.1|6|**$4.86 \cdot 10^{-10}$**|5|10 $^{-3}$|
+|Viscosity_SR_1|P-EPlas, Homogeneous|1|6|$1.90 \cdot 10^{-13}$|5|**10 $^{-2}$**|
 |Yield_SR_1_25 (*)|P-EPlas, Homogeneous|1|6|$1.90 \cdot 10^{-13}$|**2.5**|10 $^{-3}$|
 |Yield_SR_1_15 (*)|P-EPlas, Homogeneous|1|6|$1.90 \cdot 10^{-13}$|**1.5**|10 $^{-3}$|
+|Permeability_SR_1_New (*)|P-EPlas, **Permeable Fault**|0.1|6|**$1.90 \cdot 10^{-12}$**|5|10 $^{-3}$|
+|Permeability_SR_1_Homo (*)|P-EPlas, **Homogeneoust**|0.1|6|**$4.86 \cdot 10^{-10}$**|5|10 $^{-3}$|
+[Test Caption]
 
 ## Dependencies
 
