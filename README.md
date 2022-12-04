@@ -1,6 +1,6 @@
 # Fluid flow migration and rock stress and deformation fields within a geothermal system due to a crustal fault: a numerical perspective
 
-Felipe Sáez-Leiva (_[@FNSL1996](https://github.com/FNSL1996)_), Daniel E. Hurtado (_[@dehurtado](https://github.com/dehurtado)_), Muriel Gerbault (_[@murielgerbault](https://github.com/murielgerbault)_), Javiera Ruz-Ginouves(_[@JaviRG](https://github.com/JaviRG)_), Pablo Iturrieta (_[@pabloitu](https://github.com/pabloitu)_), José Cembrano.
+Felipe Sáez-Leiva (_[@FNSL1996](https://github.com/FNSL1996)_), Daniel E. Hurtado (_[@dehurtado](https://github.com/dehurtado)_), Muriel Gerbault (_[@murielgerbault](https://github.com/murielgerbault)_), Javiera Ruz-Ginouves (_[@JaviRG](https://github.com/JaviRG)_), Pablo Iturrieta (_[@pabloitu](https://github.com/pabloitu)_), José Cembrano.
 
 Repository housing the codes developed for Sáez-Leiva et al., in review.
 
@@ -9,7 +9,7 @@ Repository housing the codes developed for Sáez-Leiva et al., in review.
 Geothermal systems are commonly spatially and temporally associated with volcanic complexes, which, in turn, are located nearby crustal fault systems. Such systems can alter fluid flow in its surroundings, potentially acting as barriers or conduits for fluids, depending mainly on its architecture and slip rate. However, the fundamental control a crustal fault exerts on fluid migration, rock deformation and stress state within a geothermal system is still poorly understood.  Numerical studies have the potential to help unraveling the nature of transient processes such as the interplay between a fault and a geothermal reservoir. Most of the previous efforts on volcanic and hydrothermal processes do not directly consider
 fluids in their formulations, using often a purely mechanical approach. In this work, we present
 a poro-elasto-plastic Finite Element Method (FEM) model to address the first-order, time-dependent control that a strike-slip crustal fault exerts on a nearby geothermal reservoir.  
-For the model, we selected the Planch\'on-Peteroa geothermal system in the Southern Andes Volcanic Zone (SAVZ), for which the geometry and kinematics of the system is well-constrained from previous geological and geophysical studies.  We assess the emergence and diffusion
+For the model, we selected the Planchón-Peteroa geothermal system in the Southern Andes Volcanic Zone (SAVZ), for which the geometry and kinematics of the system is well-constrained from previous geological and geophysical studies.  We assess the emergence and diffusion
 of fluid pressure domains because of fault slip, as well as the development of tensile/dilational and compressive/contractional domains in the surroundings of the fault. We also investigate
 the spatial and temporal evolution of such domains resulting from changes in fault permeability and shear modulus, fluid viscosity, and rock rheology. Our
 results show the appearance of negative and positive fluid pressure domains due to onset of tensile/dilational and compressive/contractional regions, respectively.
@@ -50,7 +50,7 @@ Normalized fluid pressure results were plotted using [Paraview](https://www.para
 <p align="center">
 <img src="/benchmarks_data/cryer_plot.png" style="background-color:white;width:80%">
 </p>
-<figcaption align = "center"><b> Figure 3: Temporal evolution of normalized fluid pressure at the sphere's center. Two mesh different meshes were used to test mesh dependency. The number of elements for the regular and the refined mesh was XXXXXX and XXXXXX, respectively.</b></figcaption>
+<figcaption align = "center"><b> Figure 3: Temporal evolution of normalized fluid pressure at the sphere's center. Two mesh different meshes were used to test mesh dependency. The number of elements for the regular and the refined mesh was 2124 and 14843, respectively.</b></figcaption>
 </figure>
 
 ### Thick-walled hollow cylinder loading test
