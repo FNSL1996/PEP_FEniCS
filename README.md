@@ -115,6 +115,13 @@ This repository includes the results of the 8 selected models of our article, pl
 
 **Table 1: Main properties of the model runs. (*) on model name indicates additional test**
 
+<figure>
+<p align="center">
+<img src="/benchmarks_data/plastic_domain.png" style="background-color:white;width:80%">
+</p>
+<figcaption align = "center"><b> Figure 9: Plastic domain at the end of the simulation with models with different yield strength.</b></figcaption>
+</figure>
+
 ## Dependencies
 
 - [FEniCS](https://fenicsproject.org/): 2019.1.0 (Legacy version)
