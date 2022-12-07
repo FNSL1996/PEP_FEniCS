@@ -117,9 +117,17 @@ This repository includes the results of the 8 selected models of our article, pl
 
 <figure>
 <p align="center">
+<img src="/benchmarks_data/slippatch.png" style="background-color:white;width:80%">
+</p>
+<figcaption align = "center"><b> Figure 9: Slip patch profile imposed on the fault plane. Note that in the white areas slip is not imposed, but left to accommodate itself according to the fault's rheology.</b></figcaption>
+</figure>
+
+
+<figure>
+<p align="center">
 <img src="/benchmarks_data/plastic_domain.png" style="background-color:white;width:80%">
 </p>
-<figcaption align = "center"><b> Figure 9: Plastic domain at the end of the simulation with models with different yield strength.</b></figcaption>
+<figcaption align = "center"><b> Figure 10: Plastic domain at the end of the simulation with models with different yield strength.</b></figcaption>
 </figure>
 
 ## Dependencies
