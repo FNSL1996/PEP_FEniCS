@@ -115,6 +115,11 @@ This repository includes the results of the 8 selected models of our article, pl
 
 **Table 1: Main properties of the model runs. (*) on model name indicates additional test**
 
+
+https://user-images.githubusercontent.com/69156394/206356714-0f30287d-584a-47c1-8c4f-b82e54f836f3.mp4
+**Video 1: Fluid flow evolution in model SR_1. Normalized flux evolution, as well as the area where this calculation is done, are also included**
+
+
 <figure>
 <p align="center">
 <img src="/benchmarks_data/slippatch.png" style="background-color:white;width:80%">
