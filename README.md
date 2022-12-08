@@ -115,15 +115,6 @@ This repository includes the results of the 8 selected models of our article, pl
 
 **Table 1: Main properties of the model runs. (*) on model name indicates additional test**
 
-
-
-
-https://user-images.githubusercontent.com/69156394/206357286-29dff5d2-cd7a-499c-bda6-75831ac40146.mp4
-
-
-**Video 1: Fluid flow evolution in model SR_1. Normalized flux evolution, as well as the area where this calculation is done, are also included**
-
-
 <figure>
 <p align="center">
 <img src="/benchmarks_data/slippatch.png" style="background-color:white;width:80%">
@@ -132,11 +123,25 @@ https://user-images.githubusercontent.com/69156394/206357286-29dff5d2-cd7a-499c-
 </figure>
 
 
+https://user-images.githubusercontent.com/69156394/206357286-29dff5d2-cd7a-499c-bda6-75831ac40146.mp4
+
+
+**Video 1: Fluid flow evolution in model SR_1. Normalized flux evolution, as well as the area where this calculation is done, are also included**
+
+<figure>
+<p align="center">
+<img src="/benchmarks_data/FluxRep.png" style="background-color:white;width:80%">
+</p>
+<figcaption align = "center"><b> Figure 10: Flux evolution at the selected area in models with (a) different slip-rate, (b) different yield strength, (c) different fault shear modulus, (d) different fault permeability, (e) different permeability (homogeneous medium), and (f) different fluid viscosity.</b></figcaption>
+</figure>
+
+
+
 <figure>
 <p align="center">
 <img src="/benchmarks_data/plastic_domain.png" style="background-color:white;width:80%">
 </p>
-<figcaption align = "center"><b> Figure 10: Plastic domain at the end of the simulation with models with different yield strength.</b></figcaption>
+<figcaption align = "center"><b> Figure 11: Plastic domain at the end of the simulation with models with different yield strength.</b></figcaption>
 </figure>
 
 ## Dependencies
