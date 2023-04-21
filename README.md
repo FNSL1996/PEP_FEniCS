@@ -51,7 +51,7 @@ Normalized fluid pressure results were plotted using [Paraview](https://www.para
 
 ### Thick-walled hollow cylinder loading test
 
-In this benchmarks, an elasto-plastic hollow cylinder, confined in the axial direction, is subjected to an internal pressure *t*. As the pressure increases, plastic strain starts to propagate from the inner to the external surface. Analytical solutions, for every internal pressure, are known for:
+In this benchmark, an elasto-plastic hollow cylinder, confined in the axial direction, is subjected to an internal pressure *t*. As the pressure increases, plastic strain starts to propagate from the inner to the external surface. Analytical solutions, for every internal pressure, are known for:
 
 - Plastic zone depth 
 - Tangential stress 
